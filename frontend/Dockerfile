@@ -10,4 +10,6 @@ WORKDIR /build
 
 ADD . .
 
+RUN npm install
+
 ENTRYPOINT ./node_modules/.bin/elm
